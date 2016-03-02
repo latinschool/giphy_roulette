@@ -6,5 +6,5 @@
 * Click the button 'Get your First Twilio Number'
 
 ##STEP TWO: Read documentation for Twillio
-	[Ruby Quickstart: Sending Text Messages via REST API](https://www.twilio.com/docs/quickstart/ruby/sms/sending-via-rest)
-	[REST API: Sending SMS or MMS](https://www.twilio.com/docs/api/rest/sending-messages)
+[Ruby Quickstart: Sending Text Messages via REST API](https://www.twilio.com/docs/quickstart/ruby/sms/sending-via-rest)
+[REST API: Sending SMS or MMS](https://www.twilio.com/docs/api/rest/sending-messages)
