@@ -8,6 +8,7 @@ Make a Sinatra application that sends a random gif to your phone at the push of 
 * Click the button 'Get your First Twilio Number'
 
 ##STEP TWO: Read documentation for Twillio
+* [Twillio-Ruby Gem](https://github.com/twilio/twilio-ruby)
 * [Ruby Quickstart: Sending Text Messages via REST API](https://www.twilio.com/docs/quickstart/ruby/sms/sending-via-rest)
 
 * [REST API: Sending SMS or MMS](https://www.twilio.com/docs/api/rest/sending-messages)
