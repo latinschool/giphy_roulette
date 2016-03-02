@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Giphy Roulette</title>
+	<link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<h1> GIPHY ROULETTE </h1>
+	<div class="container">
+
+		<% if @gif %>
+			<h3> Giphy Sent! Replay! </h3>
+		<%end%>
+
+		<form method="Post" action="gif">
+			<input type="submit" value="Send Gif">
+		</form>
+	</div>
+</body>
+</html>
+
+
+

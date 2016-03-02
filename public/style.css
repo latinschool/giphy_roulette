@@ -1,0 +1,40 @@
+body {
+	background-color: #F8F8FF;
+}
+
+.container {
+	margin: 0 auto;
+	width: 60%;
+	height: 300px;
+	background-color: #7C7877;
+	border-radius: 5%;
+	position: relative;
+	text-align: center;
+	background-image: url("https://media.giphy.com/media/xT0BKKVhBdhMCciCmA/giphy.gif");
+	background-size: cover;
+}
+
+.container img{
+	width: 50%;
+}
+h1 {
+	text-align: center;
+	font-family: helvetica;
+	color: #ABD0CE;
+}
+
+h3 {
+	font-family: helvetica;
+	color: #F8F8FF;
+}
+form {
+	margin: 0 auto;
+	padding: 0 25%;
+	width: 50%;
+	position: absolute;
+	bottom: 50px;
+}
+
+input[type=submit]{
+	width: 70%;
+}
