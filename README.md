@@ -1,4 +1,6 @@
 #GIPHY ROULETTE
+Make a Sinatra application that sends a random gif to your phone at the push of a button!
+
 
 ##STEP ONE: Sign up for Twilio
 * Sign up for an Account
@@ -29,7 +31,7 @@
 ##STEP EIGHT: Get it working!
 * Find any bugs and fix them to get you app working!
 
-#STEP NINE: Push changes to Github
+##STEP NINE: Push changes to Github
 
 ##STEP TEN: Read Article & Answer Formative Questions
 
