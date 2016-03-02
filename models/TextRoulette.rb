@@ -1,10 +1,10 @@
 class TextRoulette
 	def initialize
-		@account_sid = "AC0240a35c54e9fd52137b7d6b775d73e7"
-		@auth_token = "61271daf7a6a79ab277ecc3f1fe3af53"
+		@account_sid = "" #Enter your account sid
+		@auth_token = ""  #Enter you authentication token
 		@client = Twilio::REST::Client.new @account_sid, @auth_token
 
-		@from = "+1201508-0094" # Your Twilio number
+		@from = "" # Your Twilio number
 	end
 
 	def get_random_gif
@@ -15,8 +15,8 @@ class TextRoulette
 	def send_random_gif
 	   @client.account.messages.create(
 	    :from => @from,
-	    :to => "+19204890038",
-	    :media_url => get_random_gif
+	    :to => "+1", #Your Number
+	    :media_url => #What needs to be called here to send a random gif?
 	   )
 	   puts "Sent message"
 	end
